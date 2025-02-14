@@ -23,3 +23,10 @@ D:\Work Station\Study\2025\GamesStore\GamesStore.api\obj\Debug\net8.0\refint\Gam
 D:\Work Station\Study\2025\GamesStore\GamesStore.api\obj\Debug\net8.0\GamesStore.api.pdb
 D:\Work Station\Study\2025\GamesStore\GamesStore.api\obj\Debug\net8.0\GamesStore.api.genruntimeconfig.cache
 D:\Work Station\Study\2025\GamesStore\GamesStore.api\obj\Debug\net8.0\ref\GamesStore.api.dll
+D:\Work Station\Study\2025\GamesStore\gamesstore.api\obj\Debug\net8.0\GamesStore.api.sourcelink.json
+D:\Work Station\Study\2025\GamesStore\gamesstore.api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Work Station\Study\2025\GamesStore\gamesstore.api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Work Station\Study\2025\GamesStore\gamesstore.api\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Work Station\Study\2025\GamesStore\gamesstore.api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Work Station\Study\2025\GamesStore\gamesstore.api\obj\Debug\net8.0\GamesStore.api.csproj.AssemblyReference.cache
+D:\Work Station\Study\2025\GamesStore\gamesstore.api\obj\Debug\net8.0\GamesSto.A78B0967.Up2Date

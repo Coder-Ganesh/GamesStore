@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "GZcGxMKkIBEkg0sv5nomV8lpKlF7NxHPMyrWQEpOVRqbBRicj6j7addU1yneeSrK7/aGrwFaP4DqH+rybweJbA==",
+  "dgSpecHash": "07kQEggLsCqja+OBa3DAP7iwAY33VEBF7ZGrjS2gW3mvc8x5Ch2XtPEROT+d0l0VkXq8NtyS8soV+xxqWm7CqQ==",
   "success": true,
-  "projectFilePath": "D:\\Work Station\\Study\\2025\\GamesStore\\gamesstore.api\\GamesStore.api.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Work Station\\Study\\2025\\GamesStore\\GamesStore.api\\GamesStore.api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gsacp\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.0\\microsoft.aspnetcore.jsonpatch.8.0.0.nupkg.sha512",
+    "C:\\Users\\gsacp\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.0.nupkg.sha512",
+    "C:\\Users\\gsacp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\gsacp\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\gsacp\\.nuget\\packages\\minimalapis.extensions\\0.11.0\\minimalapis.extensions.0.11.0.nupkg.sha512",
+    "C:\\Users\\gsacp\\.nuget\\packages\\minivalidation\\0.8.0\\minivalidation.0.8.0.nupkg.sha512",
+    "C:\\Users\\gsacp\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\gsacp\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
