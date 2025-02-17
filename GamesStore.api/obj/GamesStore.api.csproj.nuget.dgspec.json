@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work Station\\Study\\2025\\GamesStore\\GamesStore.api\\GamesStore.api.csproj": {}
+    "D:\\Study\\2025\\GamesStore\\Gamesstore.api\\GamesStore.api.csproj": {}
   },
   "projects": {
-    "D:\\Work Station\\Study\\2025\\GamesStore\\GamesStore.api\\GamesStore.api.csproj": {
+    "D:\\Study\\2025\\GamesStore\\Gamesstore.api\\GamesStore.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work Station\\Study\\2025\\GamesStore\\GamesStore.api\\GamesStore.api.csproj",
+        "projectUniqueName": "D:\\Study\\2025\\GamesStore\\Gamesstore.api\\GamesStore.api.csproj",
         "projectName": "GamesStore.api",
-        "projectPath": "D:\\Work Station\\Study\\2025\\GamesStore\\GamesStore.api\\GamesStore.api.csproj",
+        "projectPath": "D:\\Study\\2025\\GamesStore\\Gamesstore.api\\GamesStore.api.csproj",
         "packagesPath": "C:\\Users\\gsacp\\.nuget\\packages\\",
-        "outputPath": "D:\\Work Station\\Study\\2025\\GamesStore\\GamesStore.api\\obj\\",
+        "outputPath": "D:\\Study\\2025\\GamesStore\\Gamesstore.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gsacp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,20 @@
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.1, )"
             },
             "MinimalApis.Extensions": {
               "target": "Package",

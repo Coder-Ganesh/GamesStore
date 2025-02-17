@@ -1,5 +1,8 @@
 using System;
 using GamesStore.api.Dtos;
+using GamesStore.api.Entities;
+using GamesStore.Api.mapping;
+using GameStore.api.Data;
 
 namespace GamesStore.api.EndPoints;
 
@@ -25,14 +28,18 @@ public static class GamesEndpoints
             group.MapGet("/{id}/", (int id) => games.Find(game => game.Id == id)).WithName(GetGameEndpointName);
 
             // POST /Games
-            group.MapPost("/", (CreateGameDto newGame) =>
-            {               
-                GameDto game = new(
-                games.Count + 1, newGame.Name, newGame.Genre, newGame.Price, newGame.ReleaseDate);
+            group.MapPost("/", (CreateGameDto newGame, GameStoreContext dbContext) =>
+            {       
+                Game game = newGame.ToEntity();
+                game.Genre = dbContext.Genre.Find(newGame.GenreId);       
 
-                games.Add(game);
-
-                return Results.CreatedAtRoute(GetGameEndpointName, new { id = game.Id }, game);
+                dbContext.Games.Add(game);
+                dbContext.SaveChanges();
+               
+                return Results.CreatedAtRoute
+                (GetGameEndpointName, new { id = game.Id },
+                game.ToDTO());
+                
             });
 
             // PUT /Games
